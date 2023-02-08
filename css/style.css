@@ -1,0 +1,133 @@
+/** Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/** HEADER  */
+header.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  height: 8vh;
+  background-color: #35424a;
+  align-items: center;
+  border-bottom: 2px solid #a85089;
+  padding-left: 1rem;
+}
+
+header .item {
+  font-size: 1.5rem;
+  color: white;
+}
+
+header .header-span {
+  color: #a85089;
+}
+
+header div.link a {
+  color: white;
+  text-decoration: none;
+  margin-right: 2rem;
+}
+
+header div.link a:hover {
+  color: #a85089;
+  border-bottom: 3px solid #a85089;
+}
+
+/** BANNER */
+nav.banner {
+  position: relative;
+}
+
+nav.banner img {
+  width: 100%;
+  /* max-height: calc(100vh - 99px); */
+  height: 35vh;
+}
+
+nav .div-banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+nav .div-banner h2 {
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+nav .div-banner p {
+  color: white;
+  font-size: 1.1rem;
+}
+
+/** SECTİON  */
+section.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  background-color: #35424a;
+  color: white;
+  padding: 0.8rem;
+  height: 8vh;
+  margin-top: -0.3rem;
+}
+
+section .form {
+  padding: 1rem;
+}
+
+section .form-input {
+  padding: 0.5rem;
+  margin-right: 0.3rem;
+  width: 250px;
+}
+
+section .submit {
+  background-color: rgb(180, 98, 3);
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding: 0.6rem;
+}
+
+
+/** MAIN */
+main.main {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  height: 40vh;
+  margin-top: 0.5rem;
+}
+
+main .div h2 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/**FOOTER */
+footer.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #35424a;
+  height: 8vh;
+  left: 0; 
+  bottom: 0;
+  width: 100%;
+}
