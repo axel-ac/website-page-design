@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body {
+  height: 100vh;
+}
+
 /** HEADER  */
 header.container {
   display: flex;
@@ -100,7 +104,6 @@ section .submit {
   padding: 0.6rem;
 }
 
-
 /** MAIN */
 main.main {
   display: flex;
@@ -127,7 +130,7 @@ footer.footer {
   justify-content: center;
   background-color: #35424a;
   height: 8vh;
-  left: 0; 
+  left: 0;
   bottom: 0;
   width: 100%;
 }

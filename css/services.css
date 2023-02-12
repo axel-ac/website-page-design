@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body {
+  height: 100vh;
+}
+
 /** HEADER  */
 header.container {
   display: flex;
@@ -38,7 +42,6 @@ header div.link a:hover {
   color: #a85089;
   border-bottom: 3px solid #a85089;
 }
-
 
 /** SECTİON  */
 section.section {
